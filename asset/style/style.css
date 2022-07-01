@@ -80,9 +80,14 @@ header nav ul li a {
   padding-top: 5px;
   font-weight: bold;
   display: block;
+  white-space: nowrap;
 }
 header nav ul li a:hover {
   color: #FE8C12;
+}
+header nav ul li > ul {
+  display: none;
+  position: absolute;
 }
 header nav .home {
   color: orange;

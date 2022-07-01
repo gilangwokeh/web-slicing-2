@@ -75,11 +75,43 @@ header{
             padding-top: 5px;
             font-weight: bold;
             display: block;
+            white-space: nowrap;
         }
         a:hover {
           color: #FE8C12;
         }
       }
+      li > ul {
+        display: none;
+        position: absolute;
+      }
+      // li > ul ul {
+      //   left: 100%;
+      //   top: 0;
+      // }
+      // li:hover > ul {
+      //   background-color: #686C73;
+      //   display: block;
+      //   left: 0%;
+      //   margin-left: -20px;
+      //   width: 50px;
+      //   height: 50px;
+      //   position: absolute;
+      //   list-style: none;
+      // }
+      // li:hover > ul a:hover {
+      //   background-color: #686C73;
+      //   display: block;
+      //   margin-left: -20px;
+      //   position: relative;
+      //   list-style: none;
+      // }
+      // li:hover > ul ul {
+      //   background-color: #686C73;
+      //   display: block;
+      //   padding-left: 20px;;
+      //   position: relative;
+      // }
     }
     .home {
       color: orange;
