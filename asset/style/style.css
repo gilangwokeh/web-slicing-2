@@ -32,7 +32,8 @@ header .button-header {
   position: absolute;
   top: 10px;
   left: 1046px;
-  background-color: orange;
+  background-color: #FE8C12;
+  border: #FE8C12 2px solid;
   width: 129px;
   height: 50px;
   font-family: sans-serif;
@@ -170,6 +171,24 @@ h1 {
   line-height: 90%;
 }
 
+.slider {
+  max-width: 100%;
+  height: auto;
+}
+.slider .slides {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.slider .slides .slide {
+  float: left;
+  height: auto;
+  max-width: 100%;
+}
+
 .paragraph-two {
   position: absolute;
   width: 608px;
@@ -190,6 +209,7 @@ h1 {
   background-color: #FE8C12;
   font-size: 12px;
   display: flex;
+  border: #FE8C12 2px solid;
   width: 129px;
   height: 50px;
   font-family: sans-serif;
@@ -228,13 +248,17 @@ h1 {
   position: absolute;
   top: 707px;
   left: 1195px;
-  gap: 10px;
+  border: 2px solid #FE8C12;
   background-color: #FE8C12;
   width: 55px;
   height: 56px;
-  padding-left: 10px;
   border-radius: 70px;
   font-size: 35px;
+}
+.arrow_forward img {
+  position: absolute;
+  top: 18px;
+  left: 18px;
 }
 
 .arrow_forward:hover, .arrow_back:hover {
@@ -379,7 +403,8 @@ h1 {
   position: absolute;
   top: 1390px;
   left: 575px;
-  background-color: orange;
+  background-color: #FE8C12;
+  border: 2px #FE8C12 solid;
   width: 129px;
   height: 50px;
   font-family: sans-serif;
@@ -503,7 +528,8 @@ h1 {
 }
 .grid-container .item-3 .paragraph-menu .header-button {
   display: flex;
-  background-color: orange;
+  background-color: #FE8C12;
+  border: 2px #FE8C12 solid;
   width: 129px;
   height: 50px;
   font-family: sans-serif;
@@ -642,13 +668,13 @@ h1 {
   position: relative;
   max-width: 100%;
   top: 400px;
-  height: 500px;
+  height: 600px;
 }
 .grid-container .item-5 .paragraph-advice {
   position: absolute;
   top: 50px;
   left: 100px;
-  color: #ffffff;
+  color: #FE8C12;
   font-family: "Roboto";
 }
 .grid-container .item-5 .paragraph-advice .Line-2 {
@@ -727,7 +753,7 @@ h1 {
   position: absolute;
   right: 0;
   width: 500px;
-  height: 500px;
+  height: 600px;
 }
 .grid-container .item-5 .picture-grass {
   position: absolute;
@@ -739,7 +765,7 @@ h1 {
   position: relative;
   max-width: 100%;
   top: 400px;
-  height: auto;
+  height: 200px;
 }
 .grid-container .item-6 .paragraph-contact {
   color: #ffffff;
@@ -747,7 +773,7 @@ h1 {
   font-weight: bold;
   font-size: 30px;
   position: relative;
-  top: 14px;
+  top: 54px;
   left: 100px;
 }
 .grid-container .item-6 button {
@@ -755,7 +781,7 @@ h1 {
   color: #0A0A0B;
   width: 158px;
   height: 60px;
-  top: -60px;
+  top: -20px;
   left: 900px;
   position: relative;
 }
@@ -774,6 +800,7 @@ h1 {
   max-width: 100%;
   top: 400px;
   height: 580px;
+  margin-top: -365px;
 }
 .grid-container .item-7 footer section {
   background-color: #F5F5F5;
@@ -988,6 +1015,8 @@ h1 {
   top: 500px;
   left: 100px;
   margin-bottom: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 .grid-container .item-7 footer section .ul-footer {
   display: flex;
@@ -1079,36 +1108,6 @@ h1 {
   width: 26px;
   padding-top: 14px;
   padding-left: 14px;
-}
-
-@media screen and (max-width: 768px) {
-  header .img-bioven {
-    display: none;
-  }
-  header .icon-telpon {
-    display: none;
-  }
-  header .menu {
-    background-color: #FE8C12;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 10px;
-    left: 0;
-  }
-  header .menu span {
-    background-color: #030A15;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    left: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  header nav ul {
-    display: none;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

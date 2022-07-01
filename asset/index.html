@@ -12,12 +12,6 @@
     <img class="icon-telpon" src="./image/Call.svg" alt="">
     <img class="icon-email" src="./image/Email.svg" alt="">
     <button class="button-header" >Read More<img class="forward" src="./image/icon-forward.svg" alt=""></button>
-    <div class="menu">
-      <input type="checkbox" name="" id="">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
     <nav>
       <ul>
         <li>
@@ -70,22 +64,30 @@
   </header>
   <div class="grid-container-2">
     <section>
-      <img src="./image/gambar-nav.jpg" alt="" max-width="100%" height="863px">
+      <div class="slider">
+        <ul class="slides">
+          <li class="slide"><img id="image-nav" class="slideshow-container" src="./image/gambar-nav.jpg" alt="" max-width="100%" height="auto"></li>
+          <li class="slide"><img id="image-nav" class="slideshow-container" src="./image/gambar-nav.jpg" alt="" max-width="100%" height="auto"></li>
+          <li class="slide"><img id="image-nav" class="slideshow-container" src="./image/gambar-nav.jpg" alt="" max-width="100%" height="auto"></li>
+          <li class="slide"><img id="image-nav" class="slideshow-container" src="./image/gambar-nav.jpg" alt="" max-width="100%" height="auto"></li>
+          <li class="slide"><img id="image-nav" class="slideshow-container" src="./image/gambar-nav.jpg" alt="" max-width="100%" height="auto"></li>
+        </ul>
+      </div>
       <p class="paragraph">
         <b>WE'RE THE BEST</b>
       </p>
       <h1>PROVIDES  EXPORT ADVICE</h1>
       <P class="paragraph-two">Pellentesque convallis posuere leo faucibus mollis.Sed a laoreet augue. Etiam pretium sagitius tellus vitae consectelur.</P>
-      <button class="quetex" type="button">
+      <button class="quetex"  type="button">
         <p class="paragraph-quetex">QUETEX NOW</p>
         <i class="material-icons">arrow_forward</i>
       </button>
       <img class="icon-play" src="./image/icon-play.svg" alt="">
-      <button type="button" class="arrow_forward">
-        <i class="material-icons">arrow_forward</i>
+      <button type="button" id="arrow_forward" class="arrow_forward">
+        <img src="./image/forward.svg" alt="">
       </button>
-      <button type="button" class="arrow_back" >
-        <i class="material-icons">arrow_back</i>
+      <button type="button" id="arrow_back" class="arrow_back" >
+        <img src="./image/back.svg" alt="">
       </button>
     </section>
   </div>
@@ -141,8 +143,6 @@
             </ul>
             <button class="header-button">Read More<img class="forward" src="./image/icon-forward.svg" alt=""></button>
           </span>
-          <img class="menu-image" src="./image/bioven-big.svg" alt="" width="140px" height="140px">
-            <img class="menu-bioven" src="./image/bioven-sambungan.svg" alt="" width="70px" height="70px">
           <p class="paragraph-watch">WATCH VIDEO</p>
           <img class="icon-play" src="./image/icon-play.svg" alt="">
           <img class="image-grass" src="./image/gambar-rumput.svg" alt="">
@@ -172,50 +172,50 @@
         </ul>
       </div>
       <div class="item-5">
-        <p class="paragraph-advice"><img class="Line-2" src="./image/Line.svg" alt="">PROVIDES ADVICE</p>
-        <p class="paragraph-PRODUCTIZED">THE PRODUCTIZED CONSULTING MODEL</p>
-        <ul class="paragraph-massa">
-          <li>Present id massa suscipit, venenatis velit in, ultrices sapien.phasellius</li>
-          <li>molestie, ex vel dictum efficur, fellis erat pharetra metus, ut aliquet</li>
-          <li>nulia nulla ac nicbh</li>
-        </ul>
-        <span class="icon-tel-4">
-          <img src="./image/Icon-telp.svg" alt="">
-        </span>
-        <ul>
-          <li>SOLVING A CLIENT'S </li>
-          <li>Problem,</li>
-        </ul>
-        <span class="icon-tel-5">
-          <img src="./image/Icon-telp.svg" alt="">
-        </span>
-        <ul class="list-recommending">
-          <li>RECOMMENDING</li>
-          <li>ACTIONS</li>
-        </ul>
-        <img class="picture-grass" src="./image/gambar-rumput.svg" alt="">
-        <img class="picture-bulan-2" src="./image/image-bulan.jpg" width="300px" alt="500px">
-      </div>
-      <div class="item-8">
-        <img class="picture-circle" src="./image/Image-circle.svg" alt="">
-        <ul>
-          <li>Present Id Massa Suscipit, Venenatis Velit In, Ultrices</li>
-          <li>Sapien. Phasellus Molastie, Ex Vel Dictum Efficitur,felis</li>
-          <li>Erat Pharetra Metus,Ut Aliquet Nulla Nulla Ac Nibh.</li>
-          <li>Aenean Hendrerit Lobortis</li>
-        </ul>
-        <p class="paragraph-michele">Michele Morrone</p>
-        <p class="paragraph-senior">SENIOR MAKETER</p>
-        <img class="picture-slider" src="./image/Slider-two.svg" alt="">
-        <span class="border-coma"></span>
-        <span class="coma">
-          <img src="./image/Icon-coma.svg" alt="">
-        </span>
-      </div>
+          <p class="paragraph-advice"><img class="Line-2" src="./image/Line.svg" alt="">PROVIDES ADVICE</p>
+          <p class="paragraph-PRODUCTIZED">THE PRODUCTIZED CONSULTING MODEL</p>
+          <ul class="paragraph-massa">
+            <li>Present id massa suscipit, venenatis velit in, ultrices sapien.phasellius</li>
+            <li>molestie, ex vel dictum efficur, fellis erat pharetra metus, ut aliquet</li>
+            <li>nulia nulla ac nicbh</li>
+          </ul>
+          <span class="icon-tel-4">
+            <img src="./image/Icon-telp.svg" alt="">
+          </span>
+          <ul>
+            <li>SOLVING A CLIENT'S </li>
+            <li>Problem,</li>
+          </ul>
+          <span class="icon-tel-5">
+            <img src="./image/Icon-telp.svg" alt="">
+          </span>
+          <ul class="list-recommending">
+            <li>RECOMMENDING</li>
+            <li>ACTIONS</li>
+          </ul>
+          <img class="picture-grass" src="./image/gambar-rumput.svg" alt="">
+          <img class="picture-bulan-2" src="./image/image-bulan.jpg"  alt="">
+        </div>
+        <div class="item-8">
+          <img class="picture-circle" src="./image/Image-circle.svg" alt="">
+          <ul>
+            <li>Present Id Massa Suscipit, Venenatis Velit In, Ultrices</li>
+            <li>Sapien. Phasellus Molastie, Ex Vel Dictum Efficitur,felis</li>
+            <li>Erat Pharetra Metus,Ut Aliquet Nulla Nulla Ac Nibh.</li>
+            <li>Aenean Hendrerit Lobortis</li>
+          </ul>
+          <p class="paragraph-michele">Michele Morrone</p>
+          <p class="paragraph-senior">SENIOR MAKETER</p>
+          <img class="picture-slider" src="./image/Slider-two.svg" alt="">
+          <span class="border-coma"></span>
+          <span class="coma">
+            <img src="./image/Icon-coma.svg" alt="">
+          </span>
+        </div>
+        </section>
       <div class="item-6">
         <p class="paragraph-contact">CONTACT US FOR A SOLUTION</p>
         <button>CONTACT US<img class="forward" src="./image/forward-button.svg" alt=""></button>
-      </div>
       <div class="item-7">
         <footer>
           <section>
@@ -317,5 +317,8 @@
         </footer>
       </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./javascript/index.js">
+  </script>
 </body>
 </html>
