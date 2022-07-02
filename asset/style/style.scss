@@ -68,50 +68,53 @@ header{
       li {
         position: relative;
         a {
-          text-decoration: none;
-            padding-right: 40px;
+            text-decoration: none;
+            margin-right: 40px;
             display: flex;
             color: white;
-            padding-top: 5px;
+            margin-top: 5px;
             font-weight: bold;
             display: block;
-            white-space: nowrap;
-        }
+            transition: all 0.75s;
+            -webkit-transition: all 0.75s;
+            -moz-transition: all 0.75s;
+            -ms-transition: all 0.75s;
+            -o-transition: all 0.75s;
+}
         a:hover {
           color: #FE8C12;
         }
+        > ul {
+          display: none;
+          position: absolute;
+        }
       }
-      li > ul {
-        display: none;
-        position: absolute;
+      li:hover > ul {
+        display: block;
+        margin-left: -40px;
+        width: 100px;
+        padding-left: -10px;
+        height: 100px;
+        background-color: black;
+        li {
+          a {
+            width: 150px;
+          }
+        }
+        ul {
+          background-color: black;
+          position: absolute;
+          left: 107px;
+          top: 5px;
+          height: 75px;
+          width: 130px;
+          list-style: none;
+          a {
+            text-align: left;
+
+          }
+        }
       }
-      // li > ul ul {
-      //   left: 100%;
-      //   top: 0;
-      // }
-      // li:hover > ul {
-      //   background-color: #686C73;
-      //   display: block;
-      //   left: 0%;
-      //   margin-left: -20px;
-      //   width: 50px;
-      //   height: 50px;
-      //   position: absolute;
-      //   list-style: none;
-      // }
-      // li:hover > ul a:hover {
-      //   background-color: #686C73;
-      //   display: block;
-      //   margin-left: -20px;
-      //   position: relative;
-      //   list-style: none;
-      // }
-      // li:hover > ul ul {
-      //   background-color: #686C73;
-      //   display: block;
-      //   padding-left: 20px;;
-      //   position: relative;
-      // }
     }
     .home {
       color: orange;

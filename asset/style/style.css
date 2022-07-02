@@ -74,13 +74,17 @@ header nav ul li {
 }
 header nav ul li a {
   text-decoration: none;
-  padding-right: 40px;
+  margin-right: 40px;
   display: flex;
   color: white;
-  padding-top: 5px;
+  margin-top: 5px;
   font-weight: bold;
   display: block;
-  white-space: nowrap;
+  transition: all 0.75s;
+  -webkit-transition: all 0.75s;
+  -moz-transition: all 0.75s;
+  -ms-transition: all 0.75s;
+  -o-transition: all 0.75s;
 }
 header nav ul li a:hover {
   color: #FE8C12;
@@ -88,6 +92,29 @@ header nav ul li a:hover {
 header nav ul li > ul {
   display: none;
   position: absolute;
+}
+header nav ul li:hover > ul {
+  display: block;
+  margin-left: -40px;
+  width: 100px;
+  padding-left: -10px;
+  height: 100px;
+  background-color: black;
+}
+header nav ul li:hover > ul li a {
+  width: 150px;
+}
+header nav ul li:hover > ul ul {
+  background-color: black;
+  position: absolute;
+  left: 107px;
+  top: 5px;
+  height: 75px;
+  width: 130px;
+  list-style: none;
+}
+header nav ul li:hover > ul ul a {
+  text-align: left;
 }
 header nav .home {
   color: orange;
