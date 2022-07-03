@@ -8,6 +8,14 @@
 </head>
 <body>
   <header>
+    <div id="menu-bar">
+      <div class="menu" onclick="onClickMenu()">
+        <input type="checkbox">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+    </div>
     <img class="img-bioven" src="./image/Logo-bioven.svg" alt="" width="163px" height="46px">
     <img class="icon-telpon" src="./image/Call.svg" alt="">
     <img class="icon-email" src="./image/Email.svg" alt="">
@@ -75,11 +83,11 @@
         </li>
         <li>
           <a href="">
-            <img src="./image/Icon-search.svg" alt="">
+             <img class="icon-search" src="./image/Icon-search.svg" alt="">
           </a>
         </li>
         <li>
-          <img src="./image/Line-garis-2.svg" alt="">
+          <img class="icon-search" src="./image/Line-garis-2.svg" alt="">
         </li>
         <span class="facebook">
           <li>
@@ -362,7 +370,7 @@
       </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="./javascript/index.js">
-  </script>
+  <script src="./javascript/index.js"></script>
+  <script src="./javascript/hamburger.js"></script>
 </body>
 </html>

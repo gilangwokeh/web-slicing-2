@@ -17,6 +17,9 @@ header .img-bioven {
   left: 200px;
   top: 10px;
 }
+header .menu input {
+  opacity: 0;
+}
 header .icon-telpon {
   position: absolute;
   left: 500px;
@@ -1143,6 +1146,368 @@ h1 {
   width: 26px;
   padding-top: 14px;
   padding-left: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  header .menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 20px 20px 20px;
+    cursor: pointer;
+  }
+  header .menu div {
+    transition: all 0.75s;
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    -ms-transition: all 0.75s;
+    -o-transition: all 0.75s;
+  }
+  header .menu input {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 38px;
+    height: 33px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 99;
+  }
+  header .menu input:checked ~ div:nth-child(3) {
+    opacity: 0;
+  }
+  header .menu input:checked ~ div:nth-child(2) {
+    transform: rotate(45deg) translate(7px, 7px);
+    -webkit-transform: rotate(45deg) translate(7px, 7px);
+    -moz-transform: rotate(45deg) translate(7px, 7px);
+    -ms-transform: rotate(45deg) translate(7px, 7px);
+    -o-transform: rotate(45deg) translate(7px, 7px);
+  }
+  header .menu input:checked ~ div:nth-child(4) {
+    transform: rotate(-45deg) translate(7px, -7px);
+    -webkit-transform: rotate(-45deg) translate(7px, -7px);
+    -moz-transform: rotate(-45deg) translate(7px, -7px);
+    -ms-transform: rotate(-45deg) translate(7px, -7px);
+    -o-transform: rotate(-45deg) translate(7px, -7px);
+  }
+  header .menu .bar {
+    height: 5px;
+    width: 100%;
+    background-color: #FE8C12;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  header .img-bioven {
+    display: none;
+  }
+  header .icon-telpon {
+    display: none;
+  }
+  header nav {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    background-color: #1e1e1e;
+    width: 60%;
+    height: 220px;
+    transform: translate(200%);
+  }
+  header nav .slide {
+    transform: translate(-390%);
+    position: absolute;
+    left: 0;
+    background-color: #1e1e1e;
+    width: 35%;
+    height: 220px;
+    flex-direction: column;
+  }
+  header nav .slide ul {
+    flex-direction: column;
+  }
+  header nav .slide li .icon-search {
+    display: none;
+  }
+  header nav .slide li a {
+    padding-top: 10px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+  }
+  header nav .slide li a .icon-search {
+    display: none;
+  }
+  header nav .slide li .contact {
+    width: 140px;
+    height: 20px;
+    border: none;
+  }
+  header nav .slide li:hover > ul {
+    display: none;
+  }
+  header nav .facebook {
+    display: none;
+  }
+  header nav .twitter {
+    display: none;
+  }
+  header nav .inlink {
+    display: none;
+  }
+  header nav .instagram {
+    display: none;
+  }
+  div .slideshow-container {
+    max-width: 768px;
+    height: 600px;
+    display: flex;
+  }
+  .paragraph {
+    font-size: 12px;
+  }
+  .quetex {
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    top: 800;
+  }
+  h1 {
+    font-size: 25px;
+    width: 250px;
+    height: 40px;
+  }
+  .paragraph-two {
+    font-size: 14px;
+    width: 450px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 567px) {
+  header {
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  header .menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 20px 20px 20px;
+    cursor: pointer;
+  }
+  header .menu div {
+    transition: all 0.75s;
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    -ms-transition: all 0.75s;
+    -o-transition: all 0.75s;
+  }
+  header .menu input {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 38px;
+    height: 33px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 99;
+  }
+  header .menu input:checked ~ div:nth-child(3) {
+    opacity: 0;
+  }
+  header .menu input:checked ~ div:nth-child(2) {
+    transform: rotate(45deg) translate(7px, 7px);
+    -webkit-transform: rotate(45deg) translate(7px, 7px);
+    -moz-transform: rotate(45deg) translate(7px, 7px);
+    -ms-transform: rotate(45deg) translate(7px, 7px);
+    -o-transform: rotate(45deg) translate(7px, 7px);
+  }
+  header .menu input:checked ~ div:nth-child(4) {
+    transform: rotate(-45deg) translate(7px, -7px);
+    -webkit-transform: rotate(-45deg) translate(7px, -7px);
+    -moz-transform: rotate(-45deg) translate(7px, -7px);
+    -ms-transform: rotate(-45deg) translate(7px, -7px);
+    -o-transform: rotate(-45deg) translate(7px, -7px);
+  }
+  header .menu .bar {
+    height: 5px;
+    width: 100%;
+    background-color: #FE8C12;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  header .img-bioven {
+    display: none;
+  }
+  header .icon-telpon {
+    display: none;
+  }
+  header nav {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    background-color: #1e1e1e;
+    width: 60%;
+    height: 220px;
+    transform: translate(200%);
+  }
+  header nav .slide {
+    transform: translate(-300%);
+    position: absolute;
+    left: 0;
+    background-color: #1e1e1e;
+    width: 39%;
+    height: 180px;
+    flex-direction: column;
+  }
+  header nav .slide ul {
+    flex-direction: column;
+  }
+  header nav .slide li .icon-search {
+    display: none;
+  }
+  header nav .slide li a {
+    padding-top: 10px;
+    margin-left: -20px;
+    margin-bottom: 2px;
+  }
+  header nav .slide li a .icon-search {
+    display: none;
+  }
+  header nav .slide li .contact {
+    width: 140px;
+    height: 20px;
+    border: none;
+  }
+  header nav .slide li:hover > ul {
+    display: none;
+  }
+  header nav .facebook {
+    display: none;
+  }
+  header nav .twitter {
+    display: none;
+  }
+  header nav .inlink {
+    display: none;
+  }
+  header nav .instagram {
+    display: none;
+  }
+  div .slideshow-container {
+    max-width: 567px;
+    height: 600px;
+    display: flex;
+  }
+  .paragraph {
+    position: absolute;
+    left: -150px;
+    top: -60px;
+    width: 350px;
+    height: 100px;
+    font-size: 12px;
+  }
+  .quetex {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    top: 400px;
+    left: 65px;
+  }
+  .quetex i {
+    display: flex;
+    padding-left: 7px;
+    padding-top: 4px;
+    color: #ffffff;
+    width: 20px;
+  }
+  .quetex .paragraph-quetex {
+    color: #ffffff;
+    padding-top: 4px;
+    padding-left: 7px;
+    font-weight: bold;
+    font-size: 8px;
+    width: 200px;
+    height: 5px;
+  }
+  h1 {
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 65px;
+    top: 270px;
+  }
+  .paragraph-two {
+    font-size: 10px;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    left: 65px;
+    top: 310px;
+  }
+  .icon-play {
+    position: absolute;
+    left: 155px;
+    top: 400px;
+    width: 109px;
+    height: 40px;
+  }
+  .arrow_forward {
+    position: absolute;
+    left: 285px;
+    top: 530px;
+    width: 40px;
+    height: 40px;
+  }
+  .arrow_forward img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .arrow_back {
+    position: absolute;
+    top: 530px;
+    left: 235px;
+    gap: 10px;
+    border: 2px orange solid;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+  }
+  .grid-container {
+    grid-template-columns: auto;
+    display: grid;
+    background-color: #F5F5F5;
+    margin-top: -50px;
+    max-width: 100%;
+    height: 400px;
+  }
+  .grid-container .item-two {
+    background-color: #F5F5F5;
+    max-width: 100%;
+    margin-bottom: -220px;
+  }
+  .grid-container .item-two .macan {
+    position: absolute;
+    top: 750px;
+    left: 55px;
+    width: 100px;
+    height: 100px;
+  }
+  .grid-container .item-two .macan-tutul {
+    position: absolute;
+    top: 700px;
+    left: 55px;
+    width: 50px;
+    height: 50px;
+    border: 10px white solid;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
