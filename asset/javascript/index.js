@@ -10,8 +10,7 @@
 //     currentSlide++;
 //     if(currentSlide === slideCount){
 //       currentSlide = 1;
-//       $this.css("margin-left" , "0px")
+//       $this.css("margin-left" , "100%")
 //     }
 //   })
 // }, slideTime)
-
