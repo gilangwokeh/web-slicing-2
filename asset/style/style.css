@@ -1149,6 +1149,11 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
   header {
     background-color: white;
     height: 40px;
@@ -1287,10 +1292,15 @@ h1 {
   }
 }
 @media screen and (max-width: 567px) {
+  body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
   header {
     background-color: white;
     height: 40px;
-    width: 100%;
+    max-width: 100%;
     padding-bottom: 10px;
   }
   header .menu {
@@ -1428,12 +1438,10 @@ h1 {
   }
   .quetex .paragraph-quetex {
     color: #ffffff;
-    padding-top: 4px;
-    padding-left: 7px;
-    font-weight: bold;
-    font-size: 8px;
-    width: 200px;
-    height: 5px;
+    padding-top: 5px;
+    font-size: 7px;
+    width: 300px;
+    height: 80px;
   }
   h1 {
     font-size: 15px;
@@ -1486,27 +1494,685 @@ h1 {
     background-color: #F5F5F5;
     margin-top: -50px;
     max-width: 100%;
-    height: 400px;
+    height: auto;
   }
   .grid-container .item-two {
     background-color: #F5F5F5;
     max-width: 100%;
-    margin-bottom: -220px;
+    height: 400px;
   }
   .grid-container .item-two .macan {
     position: absolute;
     top: 750px;
-    left: 55px;
-    width: 100px;
-    height: 100px;
+    left: 35px;
+    width: 250px;
+    height: 250px;
   }
   .grid-container .item-two .macan-tutul {
     position: absolute;
-    top: 700px;
-    left: 55px;
+    top: 720px;
+    left: 135px;
+    width: 150px;
+    height: 150px;
+    border: 20px white solid;
+  }
+  .grid-container .item-two .background {
+    position: absolute;
+    background-color: #FE8C12;
+    width: 100px;
+    height: 100px;
+    top: 875px;
+    left: 175px;
+    border-radius: 100px;
+  }
+  .grid-container .item-two .background span {
+    border: #FE8C12 solid 2px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    bottom: 13px;
+    left: 5px;
+  }
+  .grid-container .item-two .background .paragraph-1 {
+    position: absolute;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 35px;
+    padding-top: 0px;
+    font-weight: bold;
+  }
+  .grid-container .item-two .background .paragraph-2 {
+    color: #ffffff;
+    font-size: 10px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-weight: bolder;
+  }
+  .grid-container .item-two .background .paragraph-3 {
+    color: #ffffff;
+    font-size: 9px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-weight: bold;
+  }
+  .grid-container .item-two .HOWTOGROW {
+    position: absolute;
+    width: 313px;
+    height: 40px;
+    top: 1051px;
+    left: 35px;
+    font-family: "Roboto" sans-serif;
+    color: #FE8C12;
+    font-size: 15px;
+    font-style: medium;
+  }
+  .grid-container .item-two .INCREASE {
+    position: absolute;
+    width: 294px;
+    height: 129px;
+    top: 1071px;
+    left: 35px;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 62px;
+    line-height: 95%;
+    color: #030A15;
+  }
+  .grid-container .item-two .Present {
+    position: absolute;
+    width: 338px;
+    height: 105px;
+    top: 1131px;
+    left: 35px;
+    font-family: "Roboto";
+    color: #686C73;
+    font-size: 10px;
+  }
+  .grid-container .item-two .icon-telp {
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #ffffff;
+    top: 1241px;
+    left: 35px;
+  }
+  .grid-container .item-two .icon-telp img {
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  .grid-container .item-two .Get-CONSULTING {
+    position: absolute;
+    width: 180px;
+    height: 28px;
+    top: 1211px;
+    left: 105px;
+    color: #0A0A0B;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .grid-container .item-two .Praesent {
+    position: absolute;
+    width: 190px;
+    height: 82px;
+    top: 1241px;
+    left: 65px;
+    font-family: "Roboto";
+    color: #686C73;
+    font-size: 16px;
+  }
+  .grid-container .item-two .Praesent li {
+    list-style: none;
+    margin-bottom: 1px;
+  }
+  .grid-container .item-two .icon-telp-2 {
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #ffffff;
+    top: 1331px;
+    left: 35px;
+  }
+  .grid-container .item-two .icon-telp-2 img {
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  .grid-container .item-two .Busines {
+    position: absolute;
+    width: 288px;
+    height: 28px;
+    top: 1321px;
+    left: 105px;
+    color: #0A0A0B;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .grid-container .item-two .Praesent-two {
+    position: absolute;
+    width: 190px;
+    height: 82px;
+    top: 1341px;
+    left: 65px;
+    font-family: "Roboto";
+    color: #686C73;
+    font-size: 16px;
+    line-height: 26px;
+    line-height: 139%;
+  }
+  .grid-container .item-two .Praesent-two li {
+    list-style: none;
+  }
+  .grid-container .item-two button {
+    display: flex;
+    position: absolute;
+    background-color: #FE8C12;
+    border: 2px #FE8C12 solid;
+    top: 1541px;
+    left: 105px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+  }
+  .grid-container .item-two button .forward {
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+  .grid-container .item-two button:hover {
+    background-color: #353B44;
+    cursor: pointer;
+    color: #FE8C12;
+  }
+  .grid-container .item-two .tim-cook {
+    position: absolute;
+    top: 1441px;
+    left: 38px;
+    border-radius: 30px;
+  }
+  .grid-container .item-two .michelle {
+    width: 152px;
+    height: 24px;
+    position: absolute;
+    top: 1431px;
+    left: 105px;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 126%;
+    font-weight: bolder;
+  }
+  .grid-container .item-two .founder {
+    color: #686C73;
+    position: absolute;
+    top: 1451px;
+    left: 105px;
+    font-family: "Roboto";
+    font-style: "reguler";
+  }
+  .grid-container .item-3 {
+    background-image: url(../image/image-bulan.jpg);
+    max-width: 100%;
+    position: relative;
+    top: 400px;
+    height: 500px;
+    background-size: cover;
+  }
+  .grid-container .item-3 .paragraph-menu {
+    background-color: #ffffff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    height: 300px;
+  }
+  .grid-container .item-3 .paragraph-menu .header-1 {
+    font-family: sans-serif;
+    font-size: 23px;
+  }
+  .grid-container .item-3 .paragraph-menu .header-1 li {
+    list-style: none;
+    padding-bottom: 20px;
+  }
+  .grid-container .item-3 .paragraph-watch {
+    position: absolute;
+    top: 350px;
+    left: 130px;
+  }
+  .grid-container .item-3 .icon-play {
+    position: absolute;
+    top: 400px;
+    left: 110px;
+  }
+  .grid-container .item-4 {
+    background-color: #ffffff;
+    position: relative;
+    max-width: 100%;
+    top: 400px;
+    height: 1400px;
+  }
+  .grid-container .item-4 .paragraph-potfolid {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+  }
+  .grid-container .item-4 .paragraph-Case {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+  }
+  .grid-container .item-4 .span-list {
+    position: absolute;
+    top: 120px;
+    left: -20px;
+    flex-direction: column;
+  }
+  .grid-container .item-4 .span-list li {
+    list-style: none;
+    margin-right: 10px;
+  }
+  .grid-container .item-4 .span-list li .span-img {
+    width: 300px;
+    height: 300px;
+  }
+  .grid-container .item-4 .span-list li .span-img-2 {
+    width: 300px;
+    height: 300px;
+  }
+  .grid-container .item-4 .span-list li .span-img-3 {
+    width: 300px;
+    height: 300px;
+  }
+  .grid-container .item-4 .span-list li .img-zoom {
+    border-radius: 30px;
+    width: 45px;
+    height: 43px;
+    position: absolute;
+    top: 630px;
+    left: 250px;
+    background-color: #ffffff;
+  }
+  .grid-container .item-4 .span-list li .img-zoom img {
+    padding-top: 10px;
+    padding-left: 13px;
+  }
+  .grid-container .item-4 .span-list li .paragraph-planning {
+    position: absolute;
+    top: 830px;
+    left: 100px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .grid-container .item-4 .span-list li .paragraph-management {
+    color: #FE8C12;
+    font-size: 10px;
+    position: absolute;
+    top: 860px;
+    left: 100px;
+    font-weight: bold;
+    font-family: "Roboto";
+  }
+  .grid-container .item-4 .span-list li .span-img-4 {
+    width: 300px;
+    height: 300px;
+  }
+  .grid-container .item-5 {
+    background-color: #0A0A0B;
+    position: relative;
+    max-width: 100%;
+    top: 400px;
+    height: 1000px;
+  }
+  .grid-container .item-5 .paragraph-advice {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #FE8C12;
+    font-family: "Roboto";
+  }
+  .grid-container .item-5 .paragraph-advice .Line-2 {
+    margin-right: 10px;
+  }
+  .grid-container .item-5 .paragraph-PRODUCTIZED {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    color: #ffffff;
+  }
+  .grid-container .item-5 .paragraph-massa {
+    color: #CDCED0;
+    position: absolute;
+    top: 220px;
+    left: 10px;
+  }
+  .grid-container .item-5 .paragraph-massa li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .grid-container .item-5 .icon-tel-4 {
+    border-radius: 30px;
     width: 50px;
     height: 50px;
-    border: 10px white solid;
+    position: absolute;
+    background-color: #F5F5F5;
+    top: 390px;
+    left: 50px;
+  }
+  .grid-container .item-5 .icon-tel-4 img {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .grid-container .item-5 .list-recommending {
+    top: 480px;
+    left: 80px;
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .grid-container .item-5 .list-recommending li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  .grid-container .item-5 .icon-tel-5 {
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #F5F5F5;
+    top: 490px;
+    left: 50px;
+  }
+  .grid-container .item-5 .icon-tel-5 img {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .grid-container .item-5 ul {
+    top: 380px;
+    left: 80px;
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .grid-container .item-5 ul li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  .grid-container .item-5 .picture-bulan-2 {
+    position: absolute;
+    top: 700px;
+    max-width: 100%;
+    height: 300px;
+  }
+  .grid-container .item-8 {
+    background-color: #F5F5F5;
+    position: relative;
+    max-width: 100%;
+    top: 400px;
+    height: 600px;
+  }
+  .grid-container .item-8 ul {
+    position: absolute;
+    top: 300px;
+    left: 2px;
+    font-family: "Roboto";
+    font-size: 14px;
+  }
+  .grid-container .item-8 ul li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .grid-container .item-8 .paragraph-michele {
+    top: 450px;
+    left: 42px;
+    position: absolute;
+  }
+  .grid-container .item-8 .paragraph-senior {
+    top: 480px;
+    left: 42px;
+    position: absolute;
+  }
+  .grid-container .item-8 .picture-slider {
+    top: 520px;
+    left: 50%;
+    position: absolute;
+  }
+  .grid-container .item-8 .picture-circle {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: 50px;
+    left: 70px;
+  }
+  .grid-container .item-8 .border-coma {
+    top: 30px;
+    left: 210px;
+    border-radius: 30px;
+    width: 55px;
+    height: 52px;
+    position: absolute;
+  }
+  .grid-container .item-8 .coma {
+    top: 40px;
+    left: 210px;
+    position: absolute;
+  }
+  .grid-container .item-8 .coma img {
+    height: 26px;
+    width: 26px;
+  }
+  .grid-container .item-6 {
+    position: relative;
+    max-width: 100%;
+    top: 400px;
+    height: 200px;
+  }
+  .grid-container .item-6 .paragraph-contact {
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+  }
+  .grid-container .item-6 button {
+    left: 100px;
+    top: 10px;
+    position: relative;
+  }
+  .grid-container .item-6 button .forward {
+    padding-left: 10px;
+    padding-top: 2px;
+  }
+  .grid-container .item-7 {
+    background-color: #F5F5F5;
+    position: relative;
+    max-width: 100%;
+    top: 400px;
+    height: 1150px;
+  }
+  .grid-container .item-7 footer section {
+    background-color: #F5F5F5;
+  }
+  .grid-container .item-7 footer section .bioven {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+  }
+  .grid-container .item-7 footer section .paragraph-footer {
+    top: 110px;
+    left: 7px;
+    position: absolute;
+  }
+  .grid-container .item-7 footer section .paragraph-footer li {
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  .grid-container .item-7 footer section .icon-facebook {
+    position: absolute;
+    top: 250px;
+    left: 45px;
+  }
+  .grid-container .item-7 footer section .icon-facebook img {
+    width: 20px;
+    height: 15px;
+  }
+  .grid-container .item-7 footer section .icon-twitter {
+    position: absolute;
+    top: 250px;
+    left: 95px;
+  }
+  .grid-container .item-7 footer section .icon-twitter img {
+    width: 20px;
+    height: 15px;
+  }
+  .grid-container .item-7 footer section .icon-instagram {
+    position: absolute;
+    top: 250px;
+    left: 145px;
+  }
+  .grid-container .item-7 footer section .icon-instagram img {
+    width: 20px;
+    height: 15px;
+  }
+  .grid-container .item-7 footer section .icon-linken {
+    position: absolute;
+    top: 250px;
+    left: 195px;
+  }
+  .grid-container .item-7 footer section .icon-linken img {
+    width: 20px;
+    height: 15px;
+  }
+  .grid-container .item-7 footer section .PagesLinks {
+    position: absolute;
+    top: 300px;
+    left: 45px;
+  }
+  .grid-container .item-7 footer section .list-menu {
+    position: absolute;
+    top: 340px;
+    left: 7px;
+  }
+  .grid-container .item-7 footer section .list-menu li {
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  .grid-container .item-7 footer section .list-menu .list-2 {
+    position: absolute;
+    top: 3px;
+    left: 180px;
+  }
+  .grid-container .item-7 footer section .list-menu .list-3 {
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    padding-bottom: 10px;
+  }
+  .grid-container .item-7 footer section .list-menu .list-4 {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    width: 100px;
+  }
+  .grid-container .item-7 footer section .header-recent {
+    position: absolute;
+    top: 520px;
+    left: 45px;
+  }
+  .grid-container .item-7 footer section .list-recent {
+    position: absolute;
+    top: 550px;
+    left: 7px;
+  }
+  .grid-container .item-7 footer section .list-recent li {
+    list-style: none;
+    font-weight: bold;
+  }
+  .grid-container .item-7 footer section .list-recent .list-menu-business {
+    position: absolute;
+    top: -15px;
+    left: 140px;
+  }
+  .grid-container .item-7 footer section .list-recent .list-menu-business .paragraph-kalendar {
+    position: absolute;
+    top: 48px;
+    left: 25px;
+  }
+  .grid-container .item-7 footer section .list-recent .list-menu-business-2 {
+    position: absolute;
+    top: 66px;
+    left: 140px;
+  }
+  .grid-container .item-7 footer section .list-recent .list-menu-business-2 .paragraph-kalendar-2 {
+    position: absolute;
+    left: 25px;
+    top: 48px;
+  }
+  .grid-container .item-7 footer section .INFORMATION {
+    position: absolute;
+    top: 740px;
+    left: 45px;
+  }
+  .grid-container .item-7 footer section .list-information {
+    position: absolute;
+    top: 780px;
+    left: 7px;
+  }
+  .grid-container .item-7 footer section .list-information li {
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  .grid-container .item-7 footer section .list-information .list-information {
+    position: absolute;
+    width: 200px;
+    top: -20px;
+    left: 80px;
+  }
+  .grid-container .item-7 footer section .list-information .list-information-2 {
+    position: absolute;
+    top: 32px;
+    left: 80px;
+  }
+  .grid-container .item-7 footer section .list-information .list-information-3 {
+    position: absolute;
+    top: 85px;
+    left: 80px;
+    font-size: 17px;
+  }
+  .grid-container .item-7 footer section hr {
+    position: relative;
+    top: 1000px;
+  }
+  .grid-container .item-7 footer section .paragraph-footer-2 {
+    position: absolute;
+    top: 1070px;
+    left: 45px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .grid-container .item-7 footer section .ul-footer {
+    position: absolute;
+    top: 1020px;
+    left: 2px;
+  }
+  .grid-container .item-7 footer section .ul-footer li {
+    list-style: none;
+    padding-left: 2px;
+    font-size: 14px;
+  }
+  .grid-container .item-7 footer section .ul-footer li a {
+    text-decoration: none;
+    padding-right: 13px;
   }
 }
 
