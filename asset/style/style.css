@@ -15,7 +15,7 @@ header {
 header .img-bioven {
   position: relative;
   left: 200px;
-  top: 10px;
+  top: -10px;
 }
 header .menu input {
   opacity: 0;
@@ -1149,11 +1149,6 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-  }
   header {
     background-color: white;
     height: 40px;
@@ -1209,10 +1204,24 @@ h1 {
     margin-bottom: 5px;
   }
   header .img-bioven {
-    display: none;
+    position: relative;
+    left: 100px;
+    top: -60px;
   }
   header .icon-telpon {
-    display: none;
+    position: relative;
+    left: 120px;
+    top: -60px;
+    width: 140px;
+    margin-bottom: 7px;
+  }
+  header .icon-email {
+    position: relative;
+    left: 120px;
+    top: -60px;
+    width: 140px;
+    margin-bottom: 5px;
+    margin-left: 10px;
   }
   header nav {
     position: absolute;
@@ -1224,7 +1233,7 @@ h1 {
     transform: translate(200%);
   }
   header nav .slide {
-    transform: translate(-390%);
+    transform: translate(-400%);
     position: absolute;
     left: 0;
     background-color: #1e1e1e;
@@ -1272,7 +1281,10 @@ h1 {
     display: flex;
   }
   .paragraph {
-    font-size: 12px;
+    width: 400px;
+    position: absolute;
+    top: -100px;
+    left: -100px;
   }
   .quetex {
     position: absolute;
@@ -1282,8 +1294,11 @@ h1 {
   }
   h1 {
     font-size: 25px;
-    width: 250px;
-    height: 40px;
+    position: absolute;
+    top: 240px;
+    left: 115px;
+    width: 210px;
+    height: 200px;
   }
   .paragraph-two {
     font-size: 14px;
@@ -1352,9 +1367,14 @@ h1 {
     margin-bottom: 5px;
   }
   header .img-bioven {
-    display: none;
+    position: relative;
+    left: 100px;
+    top: -60px;
   }
   header .icon-telpon {
+    display: none;
+  }
+  header .icon-email {
     display: none;
   }
   header nav {
