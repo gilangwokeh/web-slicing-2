@@ -16,3 +16,8 @@ $(document).ready(function(){
     $('#image-nav3').slideToggle('slow');
   });
 });
+$('document').ready(function(){
+  $('#arrow_back').click(function () {
+    $('#image-nav2').stop().slideToggle('slow');
+  });
+})
